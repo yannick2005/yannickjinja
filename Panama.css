@@ -1,0 +1,129 @@
+.White {
+  color: black;
+  font-family: 'Open Sans' ;
+  font-style: normal;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  padding: 20px;}
+.Black {
+  color: white;
+  font-family: 'Open Sans';
+  background: rgb(64,64,64);
+  width: 220px;
+  height: 160px;
+  position: absolute;
+  top: 480px;
+  left:100px;
+  padding: 20px;}
+.Blue{
+  color: white;
+  font-family: 'Open Sans';
+  background-color:rgb(69,117,185) ;
+  width: 220px;
+  height: 550px;
+  position: absolute;
+  top: 200px;
+  left:400px;
+  padding: 20px;}
+.Red{
+  color: white;
+  font-family: 'Open Sans';
+  background-color: rgb(229,63,67);
+  width: 220px;
+  height: 210px;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  padding: 20px;}
+.White2 {
+  color: black;
+  font-family: 'Open Sans';
+  background-color: white;
+  width: 220px;
+  height: 170px;
+  position: absolute;
+  top: 470px;
+  left: 700px;
+  padding: 20px;}
+.PanamaBar{
+  border: 1px;
+  width: 200px;
+  position: absolute;
+  top: 60px;
+  left: 100px;}
+.Links{
+  background-color: white;
+  width: 1000px;
+  height: 20px;
+  position: absolute;
+  top: 980px;}
+.Kiste{
+  background-color: white;
+  position: absolute;
+  top: 700px;
+  left: 100px;
+  height: 275px;
+  width: 255px;}
+.Tisch{
+  height: 5px;
+  width: 5px;
+  padding: 20px;}
+.Schiffshafen {
+  background-size: auto 100%;
+}
+@media (max-width: 600px) {
+  .KeinText {
+    display: none;
+  }
+  .White {
+    width: 270px;
+    height: 10px;
+    position: absolute;
+    top: 410px;
+    left: 50px;
+  }
+  .Black {
+    width: 270px;
+    height: 10px;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+  }
+  .Blue {
+    width: 270px;
+    height: 10px;
+    position: absolute;
+    top: 340px;
+    left: 50px;
+  }
+  .White2 {
+    width: 270px;
+    height: 10px;
+    position: absolute;
+    top: 485px;
+    left: 50px;
+  }
+  .Red {
+    width: 270px;
+    height: 10px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  .PanamaBar {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+  }
+  .Schiffshafen {
+    background-size: auto 100%;
+    background-attachment: initial;
+    height: auto;
+  }
+}
